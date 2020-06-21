@@ -1,0 +1,4 @@
+#Mon Mar 23 18:22:20 CAT 2020
+base.0=C\:\\Users\\Ifeoluwa Timothy\\Documents\\AllTheRecipes\\Top10Downloader\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

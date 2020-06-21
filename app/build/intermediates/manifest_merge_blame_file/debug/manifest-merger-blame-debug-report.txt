@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.top10downloader"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="17"
+9-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:5:5-66
+12-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <dist:module dist:instant="true" />
+14-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:7:5-40
+14-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:7:18-37
+15
+16    <application
+16-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:9:5-24:19
+17        android:allowBackup="true"
+17-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.2.0] C:\Users\Ifeoluwa Timothy\.gradle\caches\transforms-2\files-2.1\4cea45bd005ddf160f2992f5d484b3c7\core-1.2.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:16:9-40
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:10:9-44
+27        <activity android:name="com.example.top10downloader.MainActivity" >
+27-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:17:19-47
+28            <intent-filter>
+28-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\Top10Downloader\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
